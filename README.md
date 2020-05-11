@@ -1,4 +1,8 @@
-Version 1.2.1.
-https://scaffoldhub.io
 
-This code can only be used for academic and learning purposes.
+Open back-end folder in terminal and run:
+1.npm install
+2.npm start
+
+Open front-end folder in terminal and run:
+1.npm install
+2.npm start
