@@ -8,5 +8,6 @@ export default [
   fields.title,
   fields.author,
   fields.status,
+  fields.birthDate,
   fields.createdAt
 ];

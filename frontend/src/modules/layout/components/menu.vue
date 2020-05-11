@@ -41,18 +41,6 @@
       </el-menu-item>
 
       <el-menu-item
-        :class="classFor('/settings')"
-        :route="{ path: '/settings' }"
-        index="/settings"
-        v-if="hasPermissionToSettings"
-      >
-        <i class="el-icon-fa-cog"></i>
-        <span slot="title">
-          <app-i18n code="settings.menu"></app-i18n>
-        </span>
-      </el-menu-item>
-
-      <el-menu-item
         :class="classFor('/medBooks')"
         :route="{ path: '/medBooks' }"
         index="/medBooks"

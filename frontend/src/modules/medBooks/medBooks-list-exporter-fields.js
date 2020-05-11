@@ -7,7 +7,6 @@ export default [
   fields.patient,
   fields.member,
   fields.issueDate,
-  fields.dueDate,
   fields.returnDate,
   fields.status,
   fields.desiase,

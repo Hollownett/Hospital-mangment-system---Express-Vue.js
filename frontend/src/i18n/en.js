@@ -128,6 +128,7 @@ const en = {
         'status': 'Sex',
         'birthDate': 'Date of Birth',
         'birthDateRange': 'Date of Birth(R)',
+        'address': 'Address',
         createdAt: 'Created at',
         updatedAt: 'Updated at',
         createdAtRange: 'Created at',

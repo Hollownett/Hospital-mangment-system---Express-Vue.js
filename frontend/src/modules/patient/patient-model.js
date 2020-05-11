@@ -70,7 +70,10 @@ const fields = {
     'birthDate',
     label('birthDate'),
   ),
-
+  address: new StringField('address', label('address'), {
+    "required": false,
+    "max": 255
+  }),
   birthDateRange: new DateTimeField('birthDateRange', label('birthDateRange'),)
 };
 

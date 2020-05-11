@@ -50,6 +50,13 @@ module.exports = function(sequelize, DataTypes) {
          type: DataTypes.DATE,
          allowNull: false,
       },
+      address: {
+        type: DataTypes.STRING(255),
+        allowNull: true,
+        validate: {
+          notEmpty: true,
+        }
+      },
     },
     {
       timestamps: true,

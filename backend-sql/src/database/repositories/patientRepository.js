@@ -22,6 +22,7 @@ class BookRepository extends AbstractRepository {
       'updatedAt',
       'createdAt',
       'birthDate',
+      'address',
     ];
 
     this.fileAttributes = [
@@ -356,7 +357,9 @@ class BookRepository extends AbstractRepository {
       if (filter.title) {
         sequelizeFilter.appendIlike('title', filter.title, 'patient');
       }
-
+      if (filter.address) {
+        sequelizeFilter.appendIlike('address', filter.address, 'patient');
+      }
       if (filter.author) {
         sequelizeFilter.appendIlike('author', filter.author, 'patient');
       }

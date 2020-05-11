@@ -9,3 +9,5 @@ ALTER TABLE public.medBooks
 
 ALTER TABLE public.books
     ADD COLUMN "birthDate" date;
+ALTER TABLE public.patients
+    ADD COLUMN address character varying;

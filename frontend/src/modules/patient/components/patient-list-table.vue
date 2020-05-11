@@ -29,6 +29,10 @@
         </template>
       </el-table-column>
 
+      <el-table-column :label="fields.address.label" :prop="fields.address.name" sortable="custom">
+        <template slot-scope="scope">{{ presenter(scope.row, 'address') }}</template>
+      </el-table-column>
+
  <el-table-column
         :label="fields.birthDate.label"
         :prop="fields.birthDate.name"

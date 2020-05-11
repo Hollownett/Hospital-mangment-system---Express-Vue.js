@@ -66,7 +66,16 @@
             <el-input v-model="model[fields.author.name]" />
           </el-col>
         </el-form-item>
-
+         
+         <el-form-item
+          :label="fields.address.label"
+          :prop="fields.address.name"
+          :required="fields.address.required"
+        >
+          <el-col :lg="11" :md="16" :sm="24">
+            <el-input ref="focus" v-model="model[fields.address.name]" />
+          </el-col>
+        </el-form-item>
 
        <el-form-item
           :label="fields.birthDate.label"
@@ -130,6 +139,7 @@ const formSchema = new FormSchema([
   fields.numberOfCopies,
   fields.birthDate,
   fields.status,
+  fields.address,
 ]);
 
 export default {

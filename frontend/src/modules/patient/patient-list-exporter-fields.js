@@ -7,6 +7,6 @@ export default [
   fields.isbn,
   fields.title,
   fields.author,
-  fields.status,
+  fields.birthDate,
   fields.createdAt
 ];
