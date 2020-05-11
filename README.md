@@ -1,4 +1,4 @@
-Run 
+Run \n
 Open back-end folder in terminal and run:
 1.npm install
 2.npm start
